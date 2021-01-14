@@ -14,10 +14,8 @@ import java.util.List;
  * @Github : http://github.com/laiyefei
  */
 public class Formula {
-
     private int maxPointX = 90;
     private int maxPointY = 90;
-
     private double r;
 
     public List<Point> toPoints(Framer framer) {
@@ -32,9 +30,7 @@ public class Formula {
                                 + width / 2,
                         -r * Math.sin(Math.PI / 45 * j) + height / 4
                 );
-                if (j >= maxPointY - 1) {
-                    point.setDraw(true);
-                }
+                point.setDraw(maxPointY - 1 <= j);
                 points.add(point);
             }
         }

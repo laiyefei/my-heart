@@ -12,8 +12,6 @@ import central.service.IDraw;
  * @Github : http://github.com/laiyefei
  */
 public class PCShow {
-
-
     static final IDraw getDraw() {
         return new DrawImpl();
     }
