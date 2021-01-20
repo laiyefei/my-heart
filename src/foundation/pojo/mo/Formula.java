@@ -26,8 +26,7 @@ public final class Formula {
             for (int j = 0; j < maxPointY; j++) {
                 r = Math.PI / 45 * i * (1 - Math.sin(Math.PI / 45 * j)) * 45;
                 Point point = Point.buildBy(
-                        r * Math.cos(Math.PI / 45 * j) * Math.sin(Math.PI / 45 * i)
-                                + width / 2,
+                        r * Math.cos(Math.PI / 45 * j) * Math.sin(Math.PI / 45 * i) + width / 2,
                         -r * Math.sin(Math.PI / 45 * j) + height / 4
                 );
                 point.setDraw(maxPointY - 1 <= j);
