@@ -12,8 +12,8 @@ import java.awt.*;
  * @Github : http://github.com/laiyefei
  */
 public enum WinConfig {
-    WIDTH(500, "加载窗口宽度"),
-    HEIGHT(500, "加载窗口高度"),
+    WIDTH(800, "加载窗口宽度"),
+    HEIGHT(800, "加载窗口高度"),
     SCREEN_WIDTH(Toolkit.getDefaultToolkit().getScreenSize().width, "加载窗口宽度"),
     SCREEN_HEIGHT(Toolkit.getDefaultToolkit().getScreenSize().height, "加载窗口高度"),
     ;

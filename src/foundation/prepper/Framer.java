@@ -34,7 +34,7 @@ public class Framer extends JFrame {
     private void setFrame() {
         //设置框架结构
         // 设置窗口标题
-        this.setTitle("心形曲线");
+        this.setTitle("♥");
         // 设置窗口初始位置
         this.setLocation((this.screenWidth - this.width) / 2, (this.screenHeight - this.height) / 2);
         // 设置窗口大小
